@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
   return sequelize.define(
-    "whatsapp_template",
+    "whatsapp_templates",
     {
       id: {
         type: DataTypes.INTEGER.UNSIGNED,
@@ -26,7 +26,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },
     {
-      tableName: "whatsapp_template",
+      tableName: "whatsapp_templates",
       updatedAt: "updated_at",
       createdAt: "created_at"
     }
